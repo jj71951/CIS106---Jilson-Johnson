@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jilso"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-11 11:04:34 PM"/>
+        <attribute name="created" value="amlsc287SklMU09OSjsyMDI0LTAzLTExOzEwOjU1OjE2IEFNOzIzNDI="/>
+        <attribute name="edited" value="amlsc287SklMU09OSjsyMDI0LTAzLTExOzExOjA0OjM0IFBNOzQ7MjQ2Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="length" type="Real" array="False" size=""/>
+            <declare name="width" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="circumference" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the length of the recatangle: &quot;" newline="True"/>
+            <input variable="length"/>
+            <output expression="&quot;Enter the width of the rectangle: &quot;" newline="True"/>
+            <input variable="width"/>
+            <assign variable="area" expression="length * width"/>
+            <assign variable="circumference" expression="2 * length + 2 * width"/>
+            <output expression="&quot;Area of the rectangle: &quot;&amp;area" newline="True"/>
+            <output expression="&quot;Circumference of the rectangle: &quot;&amp;circumference" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
