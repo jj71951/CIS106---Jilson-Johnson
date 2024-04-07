@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jilso"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-07 05:11:04 PM"/>
+        <attribute name="created" value="amlsc287SklMU09OSjsyMDI0LTA0LTA3OzA1OjAxOjUxIFBNOzIzNTc="/>
+        <attribute name="edited" value="amlsc287SklMU09OSjsyMDI0LTA0LTA3OzA1OjExOjA0IFBNOzE7MjQ2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="make" type="String" array="False" size=""/>
+            <declare name="model" type="String" array="False" size=""/>
+            <declare name="msrp" type="Real" array="False" size=""/>
+            <declare name="discountPercent" type="Real" array="False" size=""/>
+            <declare name="amountOff" type="Real" array="False" size=""/>
+            <declare name="discountedPrice" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the make of the auto: &quot;" newline="True"/>
+            <input variable="make"/>
+            <output expression="&quot;Enter the model of the auto: &quot;" newline="True"/>
+            <input variable="model"/>
+            <output expression="&quot;Enter the MSRP amount: $&quot;" newline="True"/>
+            <input variable="msrp"/>
+            <output expression="&quot;Enter the discount percent (in decimal form): &quot;" newline="True"/>
+            <input variable="discountPercent"/>
+            <assign variable="amountOff" expression="msrp * discountPercent"/>
+            <assign variable="discountedPrice" expression="msrp - amountOff"/>
+            <output expression="&quot;Make: &quot; &amp; make" newline="True"/>
+            <output expression="&quot;Model: &quot; &amp; model" newline="True"/>
+            <output expression="&quot;MSRP: $&quot; &amp; msrp" newline="True"/>
+            <output expression="&quot;Discount Percent: &quot; &amp; discountPercent" newline="True"/>
+            <output expression="&quot;Amount off MSRP: $&quot; &amp; amountOff" newline="True"/>
+            <output expression="&quot;Discounted Price: $&quot; &amp; discountedPrice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

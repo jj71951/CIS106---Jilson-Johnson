@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jilso"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 10:35:46 PM"/>
+        <attribute name="created" value="amlsc287SklMU09OSjsyMDI0LTA0LTAyOzExOjU4OjE0IEFNOzIzNDU="/>
+        <attribute name="edited" value="amlsc287SklMU09OSjsyMDI0LTA0LTAyOzEwOjM1OjQ2IFBNOzM7MjQ2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tickerSymbol" type="String" array="False" size=""/>
+            <declare name="numberOfShares" type="Real" array="False" size=""/>
+            <declare name="costPerShare" type="Real" array="False" size=""/>
+            <declare name="amountInvested" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the stock ticker symbol:&quot;" newline="True"/>
+            <input variable="tickerSymbol"/>
+            <output expression="&quot;Enter the cost per shares: $&quot;" newline="True"/>
+            <input variable="costPerShare"/>
+            <assign variable="amountInvested" expression="numberOfShares * costPerShare"/>
+            <output expression="&quot;Stock Ticker Symbol:&quot; &amp; tickerSymbol" newline="True"/>
+            <output expression="&quot;Amount Invested: $&quot; &amp; amountInvested" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jilso"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-07 04:12:39 PM"/>
+        <attribute name="created" value="amlsc287SklMU09OSjsyMDI0LTA0LTA3OzA0OjA4OjU0IFBNOzIzNjY="/>
+        <attribute name="edited" value="amlsc287SklMU09OSjsyMDI0LTA0LTA3OzA0OjEyOjM5IFBNOzE7MjQ3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="amountRecieved" type="Real" array="False" size=""/>
+            <declare name="eachShare" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the amount recieved: $&quot;" newline="True"/>
+            <input variable="amountRecieved"/>
+            <assign variable="eachShare" expression="amountRecieved / 3"/>
+            <output expression="&quot;Eac of you will recieve: $&quot; &amp; eachShare" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

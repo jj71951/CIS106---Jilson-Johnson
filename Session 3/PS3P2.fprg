@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jilso"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-07 04:51:54 PM"/>
+        <attribute name="created" value="amlsc287SklMU09OSjsyMDI0LTA0LTA3OzA0OjIzOjI3IFBNOzIzNjM="/>
+        <attribute name="edited" value="amlsc287SklMU09OSjsyMDI0LTA0LTA3OzA0OjUxOjU0IFBNOzE7MjQ3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lname" type="String" array="False" size=""/>
+            <declare name="midterm" type="Real" array="False" size=""/>
+            <declare name="final" type="Real" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <input variable="lname"/>
+            <input variable="midterm"/>
+            <input variable="final"/>
+            <assign variable="total" expression="midterm + final"/>
+            <output expression="&quot;Student: &quot; &amp; lname" newline="True"/>
+            <output expression="&quot; Earned total points of&quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
