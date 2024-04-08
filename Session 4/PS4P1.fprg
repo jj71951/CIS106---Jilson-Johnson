@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jilso"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-07 09:26:11 PM"/>
+        <attribute name="created" value="amlsc287SklMU09OSjsyMDI0LTA0LTA3OzA5OjIyOjQ2IFBNOzIzNjg="/>
+        <attribute name="edited" value="amlsc287SklMU09OSjsyMDI0LTA0LTA3OzA5OjI2OjExIFBNOzE7MjQ3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="exam1" type="Real" array="False" size=""/>
+            <declare name="exam2" type="Real" array="False" size=""/>
+            <declare name="totalScore" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter score for exam 1: &quot;" newline="True"/>
+            <input variable="exam1"/>
+            <output expression="&quot;Enter score for exam2: &quot;" newline="True"/>
+            <input variable="exam2"/>
+            <assign variable="totalScore" expression="(exam1 * 0.6) + (exam2 * 0.4)"/>
+            <output expression="&quot;Total Score: &quot; &amp; totalScore" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
