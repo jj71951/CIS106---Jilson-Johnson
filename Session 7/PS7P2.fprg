@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jilso"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-18 08:56:32 PM"/>
+        <attribute name="created" value="amlsc287SklMU09OSjsyMDI0LTA0LTE4OzExOjUzOjQwIEFNOzIzNDY="/>
+        <attribute name="edited" value="amlsc287SklMU09OSjsyMDI0LTA0LTE4OzA4OjU2OjMyIFBNOzI7MjQ4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="startvalue" type="Integer" array="False" size=""/>
+            <declare name="stopvalue" type="Integer" array="False" size=""/>
+            <declare name="incrementvalue" type="Integer" array="False" size=""/>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <assign variable="num" expression="startvalue"/>
+            <output expression="&quot;Enter start value: &quot;" newline="True"/>
+            <input variable="startvalue"/>
+            <output expression="&quot;Enter stop value: &quot;" newline="True"/>
+            <input variable="stopvalue"/>
+            <output expression="&quot;Enter increment value: &quot;" newline="True"/>
+            <input variable="incrementvalue"/>
+            <output expression="&quot;Numbers from &quot; &amp; startValue &amp; stopValue &amp; incrementValue" newline="True"/>
+            <while expression="num &lt;= stopvalue">
+                <output expression="num" newline="True"/>
+                <assign variable="num" expression="num + incrementvalue"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jilso"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-18 11:53:27 AM"/>
+        <attribute name="created" value="amlsc287SklMU09OSjsyMDI0LTA0LTE4OzExOjUxOjQ1IEFNOzIzNDk="/>
+        <attribute name="edited" value="amlsc287SklMU09OSjsyMDI0LTA0LTE4OzExOjUzOjI3IEFNOzE7MjQ1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <assign variable="num" expression="1"/>
+            <output expression="&quot;Odd numbers from 1 to 25:&quot;" newline="True"/>
+            <while expression="num &lt;= 25">
+                <output expression="num" newline="True"/>
+                <assign variable="num" expression="num +2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
